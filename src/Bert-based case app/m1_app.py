@@ -12,7 +12,7 @@ drive.mount('/content/drive')
 
 !pip install huggingface_hub transformers datasets gradio pipreqs TextBlob emot
 
-!huggingface-cli login(token = "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")
+!huggingface-cli login(token = "add access token here")
 
 
 
