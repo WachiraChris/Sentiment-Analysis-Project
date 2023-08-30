@@ -28,10 +28,6 @@ Our sentiment analysis endeavor is meticulously organized:
 
 - **Data/:** The vault where our data resides, essential for training and testing the BERT model.
 
-- **README.md:** You're here! This comprehensive guide to the project's grandeur, complete with installation instructions, usage guidelines, and all things marvelous.
-
-- **Requirements.txt:** The secret recipe – all the Python libraries and dependencies needed to savor the project's flavors.
-
 ## :rocket: The Tech Chronicles
 
 ### Introduction
@@ -42,12 +38,16 @@ Sentiment analysis isn't just an NLP task; it's decoding the human essence in te
 
 Before the model waltzes in, let's sway with our data. Histograms, distribution plots, and bewitching word clouds – all to unveil the soul of our tweet dataset.
 
-#### Distribution Plot for Label Column
+### Model
+In this enchanted realm, BERT reigns supreme. Bidirectional Encoder Representations from Transformers – the guardian of NLP tasks. It understands context like none other, making sentiment analysis its royal court.
 
-```python
-sns.displot(df['label'], color='green', kde=True, rug=False)
-plt.xlabel('Label', fontsize=15)
-plt.ylabel('Frequency', fontsize=15)
-plt.title('Distribution of Labels', fontsize=15)
-plt.show()
+### Tokenizer
+The autotokenizer, a wizard from BERT's arsenal, conjures up numeric spells for our text. It readies the text for the model, handling the quirks of language like a true sorcerer.
+
+### App
+Enter the Gradio app, where magic meets reality. Witness the sentiment predictions dancing before your eyes as you type, thanks to the model's wisdom and Gradio's enchantment.
+
+:trophy: The Grand Finale
+Our Sentiment Analysis Project isn't just a tale of NLP; it's a saga of emotions, insights, and understanding. BERT's prowess and our Gradio companion provide a window into the sentiments surrounding COVID-19 vaccination and healthcare. Join us on this journey of discovery!
+
 
